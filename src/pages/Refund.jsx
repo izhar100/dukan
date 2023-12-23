@@ -97,7 +97,7 @@ const Refund = ({handlePage}) => {
                         >
                             <Text fontSize={"32px"} fontWeight={500}>₹2,312.23</Text>
                             <Flex>
-                                <Link color={"#146EB4"} fontSize={"16px"} fontWeight={500} textDecor={"underline"}>23 orders</Link>
+                                <Link color={"#146EB4"} fontSize={"16px"} fontWeight={500} textDecor={"underline"}>13 orders</Link>
                                 <Image src={DownArrow2} transform={'rotate(-90deg)'} />
                             </Flex>
                         </Flex>
