@@ -20,8 +20,8 @@ function App() {
         <Box w={"16%"} position={"fixed"} zIndex={3}>
           <Sidebar />
         </Box>
-        <Box bgColor={"white"} ml={"16%"} w={"full"}>
-          <Box bgColor={"white"} borderBottom={"1px solid #D9D9D9"} position={"fixed"} w={"84%"} zIndex={2}>
+        <Box bgColor={"white"} ml={"15%"} w={"full"}>
+          <Box bgColor={"white"} borderBottom={"1px solid #D9D9D9"} position={"fixed"} w={"85%"} zIndex={2}>
             <Box px={"32px"}>
               <Navbar />
             </Box>

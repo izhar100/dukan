@@ -10,8 +10,8 @@ const Navbar = () => {
             <Box w={"100%"} >
                 <Flex w={"100%"} py={"12px"}>
                     <Flex flex={1} color={"#4D4D4D"} alignItems={"center"} gap={"16px"}>
-                        <Heading as={"h5"} fontSize={"20px"} fontWeight={500} mt={"-2px"}
-                            color={"black"}>Payouts</Heading>
+                        <Text fontSize={"20px"} fontWeight={500} mt={"-2px"}
+                            color={"black"}>Payouts</Text>
                         <Flex gap={"6px"} alignItems={"center"}>
                             <Image src={Help} w={"14px"} />
                             <Text fontSize={"12px"}>How it works</Text>
