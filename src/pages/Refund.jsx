@@ -127,8 +127,9 @@ const Refund = ({handlePage}) => {
                             <InputLeftElement
                                 pointerEvents="none"
                                 children={<RiSearchLine size={"14px"} color="#999999" />}
+                                ml={"5px"}
                             />
-                            <Input bgColor={"#FFFFFF"} py={"10px"} px={"16px"} type="text" fontWeight={400} fontSize={"14px"} w={"248px"}
+                            <Input bgColor={"#FFF"} py={"10px"} px={"16px"} type="text" fontWeight={400} fontSize={"14px"} w={"248px"}
                                 boxSizing='border-box' placeholder="Order ID or transaction ID" _placeholder={{ color: "#999999" }} />
                         </InputGroup>
                         <Flex gap={"16px"}>

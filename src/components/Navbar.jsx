@@ -23,6 +23,7 @@ const Navbar = () => {
                             <InputLeftElement
                                 pointerEvents="none"
                                 children={<RiSearchLine size={"16px"} color="#808080" />}
+                                ml={"5px"}
                             />
                             <Input bgColor={"#F2F2F2"} py={"9px"} px={"16px"} type="text" fontWeight={400} fontSize={"15px"} placeholder="Search features, tutorials, etc." />
                         </InputGroup>
