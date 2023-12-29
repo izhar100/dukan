@@ -44,4 +44,3 @@ This command will run the app in the development mode using Vite. Open [http://l
 - React
 - Vite
 - Chakra UI
-- (Add other relevant technologies)
