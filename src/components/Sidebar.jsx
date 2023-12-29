@@ -19,7 +19,8 @@ import DownArrow from "../assets/down.svg"
 const Sidebar = () => {
     return (
         <div>
-            <Flex bgColor={"#1E2640"} color='white' flexDir={"column"} px={"10px"} pt={"16px"} h={"100vh"} justifyContent={"space-between"} position={"relative"}>
+            <Flex bgColor={"#1E2640"} color='white' flexDir={"column"} px={"10px"} pt={"16px"} h={"100vh"} justifyContent={"space-between"} position={"relative"}
+            fontFamily={"Inter"}>
                 <Flex flexDir={"column"} gap="24px">
                     <Flex alignItems={"center"} mx={"10px"} gap={"12px"}>
                         <Image w="39px" src={image} borderRadius={"4px"} />
@@ -61,10 +62,6 @@ const Sidebar = () => {
                             <Text fontSize={"14px"}>Payouts</Text>
                         </Flex>
                         <Flex px={"16px"} py={"8px"} alignItems={"center"} gap={"10px"} _hover={{ bgColor: "rgba(255, 255, 255, 0.10)" }} borderRadius={"4px"} w={"full"} cursor={"pointer"}>
-                            <LuMousePointer2 size={"20px"} />
-                            <Text fontSize={"14px"}>Tools</Text>
-                        </Flex>
-                        <Flex px={"16px"} py={"8px"} alignItems={"center"} gap={"10px"} _hover={{ bgColor: "rgba(255, 255, 255, 0.10)" }} borderRadius={"4px"} w={"full"} cursor={"pointer"}>
                             <TbDiscount2 size={"20px"} />
                             <Text fontSize={"14px"}>Discounts</Text>
                         </Flex>
@@ -82,7 +79,7 @@ const Sidebar = () => {
                         </Flex>
                     </Flex>
                 </Flex>
-                <Flex w={"192px"} my={"16px"} m={"auto"} py="6px" px="12px" alignItems={"center"} gap={"10px"} bgColor={"rgba(255, 255, 255, 0.10)"} borderRadius={"4px"} cursor={"pointer"}
+                <Flex w={"85.71%"} my={"16px"} m={"auto"} py="6px" px="12px" alignItems={"center"} gap={"10px"} bgColor={"rgba(255, 255, 255, 0.10)"} borderRadius={"4px"} cursor={"pointer"}
                 position={"absolute"} bottom={"16px"} right={"10px"} left={"10px"}
                 >
                     <Box p={"6px"} borderRadius={"4px"} bgColor={"rgba(255, 255, 255, 0.10)"}>
