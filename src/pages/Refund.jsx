@@ -17,42 +17,42 @@ const Refund = ({handlePage}) => {
             status: "Successful",
             transactionId: 131634495747,
             refundDate:"Today, 08:45 PM",
-            orderAmount: "₹1,125.00"
+            orderAmount: "₹1,100.00"
         },
         {
             orderId: "#281208",
             status: "Processing",
-            transactionId: 131634495747,
+            transactionId: 131634495748,
             refundDate:"Yesterday, 3:00 PM",
             orderAmount: "₹1,125.00"
         },
         {
             orderId: "#281207",
             status: "Successful",
-            transactionId: 131634495747,
+            transactionId: 131634495749,
             refundDate:"12 Jul 2023, 03:00 PM",
-            orderAmount: "₹1,125.00"
+            orderAmount: "₹1,200.00"
         },
         {
             orderId: "#281206",
             status: "Successful",
-            transactionId: 131634495747,
+            transactionId: 131634495750,
             refundDate:"12 Jul 2023, 03:00 PM",
-            orderAmount: "₹1,125.00"
+            orderAmount: "₹1,300.00"
         },
         {
             orderId: "#281205",
             status: "Successful",
-            transactionId: 131634495747,
+            transactionId: 131634495751,
             refundDate:"12 Jul 2023, 03:00 PM",
-            orderAmount: "₹1,125.00"
+            orderAmount: "₹1,400.00"
         },
         {
             orderId: "#281204",
             status: "Successful",
-            transactionId: 131634495747,
+            transactionId: 131634495752,
             refundDate:"12 Jul 2023, 03:00 PM",
-            orderAmount: "₹1,125.00"
+            orderAmount: "₹1,500.00"
         }
     ]
     return (

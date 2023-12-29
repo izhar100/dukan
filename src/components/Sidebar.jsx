@@ -19,7 +19,7 @@ import DownArrow from "../assets/down.svg"
 const Sidebar = () => {
     return (
         <div>
-            <Flex w="224px" bgColor={"#1E2640"} color='white' flexDir={"column"} px={"10px"} pt={"16px"} h={"100vh"} justifyContent={"space-between"} position={"relative"}>
+            <Flex bgColor={"#1E2640"} color='white' flexDir={"column"} px={"10px"} pt={"16px"} h={"100vh"} justifyContent={"space-between"} position={"relative"}>
                 <Flex flexDir={"column"} gap="24px">
                     <Flex alignItems={"center"} mx={"10px"} gap={"12px"}>
                         <Image w="39px" src={image} borderRadius={"4px"} />
